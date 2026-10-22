@@ -9,7 +9,7 @@ cask "luna" do
 
   livecheck do
     url "https://uaibritto.github.io/homebrew-luna-playground/appcast.xml"
-    strategy :sparkle
+    strategy :sparkle, &:short_version
   end
 
   # O Sparkle atualiza o app sozinho (D27).
