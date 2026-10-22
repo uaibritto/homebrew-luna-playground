@@ -5,5 +5,14 @@
     <link>https://uaibritto.github.io/homebrew-luna-playground/appcast.xml</link>
     <language>pt-BR</language>
     <!-- itens -->
+    <item>
+      <title>Luna 0.1.0</title>
+      <pubDate>Thu, 22 Oct 2026 07:18:29 +0000</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://github.com/uaibritto/homebrew-luna-playground/releases/tag/v0.1.0</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/uaibritto/homebrew-luna-playground/releases/download/v0.1.0/Luna-0.1.0.dmg" type="application/octet-stream" sparkle:edSignature="OeRMZostV7boVAyroxDnTRP3/tMTTN85afBktTuo+vBougMI6y0GVZndxB+bOf7/Cn5zUCefgCyvyfUYqkUZDg==" length="6172756"/>
+    </item>
   </channel>
 </rss>
