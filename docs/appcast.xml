@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Luna</title>
+    <link>https://uaibritto.github.io/homebrew-luna-playground/appcast.xml</link>
+    <language>pt-BR</language>
+    <!-- itens -->
+  </channel>
+</rss>
