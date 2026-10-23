@@ -4,7 +4,7 @@ cask "luna" do
 
   url "https://github.com/uaibritto/homebrew-luna/releases/download/v#{version}/Luna-#{version}.dmg"
   name "Luna"
-  desc "Roda JavaScript e TypeScript na hora, nativo no macOS"
+  desc "Roda JavaScript e TypeScript na hora"
   homepage "https://uaibritto.github.io/homebrew-luna/"
 
   livecheck do
