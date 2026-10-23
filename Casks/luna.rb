@@ -1,6 +1,6 @@
 cask "luna" do
-  version "0.2.0"
-  sha256 "c425b87802159897bfed81d186d48341fc9002f54d4a34fcc4b4e65713fc58a4"
+  version "0.2.1"
+  sha256 "1756b8eef27bf60b76ab698e5e84d9d9dd9ff34dfc31de787032a1e436559b96"
 
   url "https://github.com/uaibritto/homebrew-luna-playground/releases/download/v#{version}/Luna-#{version}.dmg"
   name "Luna"

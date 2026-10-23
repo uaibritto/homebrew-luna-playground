@@ -6,6 +6,15 @@
     <language>pt-BR</language>
     <!-- itens -->
     <item>
+      <title>Luna 0.2.1</title>
+      <pubDate>Fri, 23 Oct 2026 02:50:49 +0000</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://github.com/uaibritto/homebrew-luna-playground/releases/tag/v0.2.1</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/uaibritto/homebrew-luna-playground/releases/download/v0.2.1/Luna-0.2.1.dmg" type="application/octet-stream" sparkle:edSignature="S2LNA74e+ygC1XQhgXac+zaXBJSBudAIwLqYlBOLVOF+w2K3qsflSA6Y4WytEEXqSSmpYWa2J3MStLZPERJJAQ==" length="6742693"/>
+    </item>
+    <item>
       <title>Luna 0.2.0</title>
       <pubDate>Thu, 22 Oct 2026 23:18:54 +0000</pubDate>
       <sparkle:version>2</sparkle:version>
