@@ -2,13 +2,13 @@ cask "luna" do
   version "0.2.1"
   sha256 "1756b8eef27bf60b76ab698e5e84d9d9dd9ff34dfc31de787032a1e436559b96"
 
-  url "https://github.com/uaibritto/homebrew-luna-playground/releases/download/v#{version}/Luna-#{version}.dmg"
+  url "https://github.com/uaibritto/homebrew-luna/releases/download/v#{version}/Luna-#{version}.dmg"
   name "Luna"
-  desc "Playground nativo de JavaScript e TypeScript"
-  homepage "https://uaibritto.github.io/homebrew-luna-playground/"
+  desc "Roda JavaScript e TypeScript na hora, nativo no macOS"
+  homepage "https://uaibritto.github.io/homebrew-luna/"
 
   livecheck do
-    url "https://uaibritto.github.io/homebrew-luna-playground/appcast.xml"
+    url "https://uaibritto.github.io/homebrew-luna/appcast.xml"
     strategy :sparkle, &:short_version
   end
 
@@ -24,4 +24,10 @@ cask "luna" do
     "~/Library/Caches/Luna",
     "~/Library/Preferences/run.britto.luna.plist",
   ]
+
+  caveats <<~EOS
+    O Luna mudou de tap. Para continuar pelo tap novo:
+      brew untap --force uaibritto/luna-playground
+      brew install --cask uaibritto/luna/luna
+  EOS
 end

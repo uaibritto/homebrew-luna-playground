@@ -1,17 +1,12 @@
-# Luna
+# Luna (endereço antigo)
 
-Playground nativo de JavaScript e TypeScript para macOS (Apple Silicon, macOS 15 ou mais novo).
+O Luna mudou para [uaibritto/homebrew-luna](https://github.com/uaibritto/homebrew-luna). Página de instalação: https://uaibritto.github.io/homebrew-luna/
 
-Este repositório guarda só o que é público da distribuição: os downloads (Releases), o cask do Homebrew, a página de instalação e o feed de atualizações.
+Este repositório continua no ar para quem já instalou: o feed de atualizações e o cask daqui recebem as versões novas, e os downloads antigos continuam em [Releases](https://github.com/uaibritto/homebrew-luna-playground/releases).
 
-## Instalar
-
-Pelo Homebrew:
+Se você instalou pelo Homebrew com o tap antigo, troque para o novo:
 
 ```sh
-brew install --cask uaibritto/luna-playground/luna
+brew untap --force uaibritto/luna-playground
+brew install --cask uaibritto/luna/luna
 ```
-
-Ou baixe o DMG mais recente em [Releases](https://github.com/uaibritto/homebrew-luna-playground/releases/latest) e arraste o Luna para Aplicativos.
-
-Página de instalação: https://uaibritto.github.io/homebrew-luna-playground/

@@ -2,106 +2,17 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Luna</title>
-<meta name="description" content="Playground nativo de JavaScript e TypeScript para macOS.">
-<link rel="icon" type="image/png" href="favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://uaibritto.github.io/homebrew-luna/">
+<meta http-equiv="refresh" content="0; url=https://uaibritto.github.io/homebrew-luna/">
+<link rel="icon" href="favicon.png">
 <style>
-  :root {
-    --fundo: #ffffff;
-    --texto: #1d1d1f;
-    --suave: #6e6e73;
-    --borda: #e5e5ea;
-    --caixa: #f5f5f7;
-    --destaque: #0a66d6;
-    --destaque-texto: #ffffff;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --fundo: #161617;
-      --texto: #f5f5f7;
-      --suave: #a1a1a6;
-      --borda: #2c2c2e;
-      --caixa: #1f1f21;
-      --destaque: #3b8cff;
-      --destaque-texto: #ffffff;
-    }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--fundo);
-    color: var(--texto);
-    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
-  }
-  main { max-width: 680px; margin: 0 auto; padding: 64px 16px 48px; }
-  header { text-align: center; margin-bottom: 40px; }
-  header img { width: 128px; height: 128px; }
-  h1 { font-size: 40px; margin: 8px 0 4px; letter-spacing: -0.02em; }
-  .tagline { color: var(--suave); font-size: 19px; margin: 0 0 24px; }
-  .baixar {
-    display: inline-block;
-    background: var(--destaque);
-    color: var(--destaque-texto);
-    text-decoration: none;
-    padding: 12px 24px;
-    border-radius: 10px;
-    font-weight: 600;
-  }
-  .requisitos { color: var(--suave); font-size: 14px; margin-top: 12px; }
-  h2 { font-size: 20px; margin: 40px 0 8px; }
-  pre {
-    background: var(--caixa);
-    border: 1px solid var(--borda);
-    border-radius: 8px;
-    padding: 12px 14px;
-    overflow-x: auto;
-    font: 14px/1.5 ui-monospace, "SF Mono", Menlo, monospace;
-  }
-  code { font: 0.9em ui-monospace, "SF Mono", Menlo, monospace; }
-  ol, ul { padding-left: 22px; }
-  li { margin: 4px 0; }
-  a { color: var(--destaque); }
-  footer { color: var(--suave); font-size: 14px; border-top: 1px solid var(--borda); margin-top: 48px; padding-top: 16px; }
+  body { font: 16px -apple-system, BlinkMacSystemFont, sans-serif; margin: 4rem auto; max-width: 32rem; padding: 0 1rem; color: #1d1d1f; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #f5f5f7; background: #1d1d1f; } a { color: #6cb4ff; } }
 </style>
 </head>
 <body>
-<main>
-  <header>
-    <img src="icone.png" alt="" width="128" height="128">
-    <h1>Luna</h1>
-    <p class="tagline">Playground nativo de JavaScript e TypeScript para macOS.</p>
-    <a class="baixar" href="https://github.com/uaibritto/homebrew-luna-playground/releases/download/v0.2.1/Luna-0.2.1.dmg">Baixar o Luna 0.2.1</a>
-    <p class="requisitos">macOS 15 ou mais novo · Mac com Apple Silicon · 6,7 MB</p>
-  </header>
-
-  <h2>Instalar pelo Homebrew</h2>
-  <pre>brew install --cask uaibritto/luna-playground/luna</pre>
-
-  <h2>Instalar pelo DMG</h2>
-  <ol>
-    <li>Abra o DMG e arraste o Luna para a pasta Aplicativos.</li>
-    <li>Na primeira abertura, o Luna baixa o Bun, que executa os seus snippets. Isso leva alguns segundos.</li>
-  </ol>
-
-  <h2>Primeira abertura</h2>
-  <p>O Luna ainda não é assinado com um certificado Developer ID da Apple, então o macOS bloqueia a primeira abertura. Para liberar:</p>
-  <ol>
-    <li>Tente abrir o Luna uma vez e feche o aviso.</li>
-    <li>Abra Ajustes do Sistema → Privacidade e Segurança.</li>
-    <li>Clique em “Abrir mesmo assim” ao lado do aviso do Luna e confirme.</li>
-  </ol>
-  <p>Ou, pelo Terminal:</p>
-  <pre>xattr -dr com.apple.quarantine /Applications/Luna.app</pre>
-  <p>Depois disso, o Luna abre normalmente e se atualiza sozinho.</p>
-
-  <h2>Conferir o download</h2>
-  <p>O SHA-256 do DMG está em <a href="https://github.com/uaibritto/homebrew-luna-playground/releases/download/v0.2.1/Luna-0.2.1.dmg.sha256">Luna-0.2.1.dmg.sha256</a>:</p>
-  <pre>shasum -a 256 ~/Downloads/Luna-0.2.1.dmg</pre>
-
-  <footer>
-    <a href="https://github.com/uaibritto/homebrew-luna-playground/releases">Todas as versões</a>
-  </footer>
-</main>
+<p>A página do Luna mudou para <a href="https://uaibritto.github.io/homebrew-luna/">uaibritto.github.io/homebrew-luna</a>.</p>
 </body>
 </html>
